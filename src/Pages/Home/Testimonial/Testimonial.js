@@ -7,6 +7,7 @@ export default class Testimonials extends Component {
   render() {
     return (
       <Carousel
+        className="carousel-container"
         showArrows={true}
         infiniteLoop={true}
         showThumbs={false}

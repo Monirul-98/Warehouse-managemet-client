@@ -1,9 +1,7 @@
 .banner {
-  height: 100vh;
   width: 100%;
   background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
 }
 .banner-image {
   padding: 30px;
@@ -15,4 +13,24 @@
 }
 .banner-heading {
   font-size: 57px;
+}
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column-reverse;
+
+    align-items: center;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-heading {
+    font-size: 40px;
+  }
+  .banner-title {
+    text-align: center;
+    margin-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
