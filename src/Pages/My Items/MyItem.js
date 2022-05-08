@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+const axios = require("axios");
 
 const MyItem = () => {
   const [user] = useAuthState(auth);
   const [products, setProducts] = useState([]);
   useEffect(() => {
     const email = user.email;
-    const url = `http://localhost:5000/myproducts?email=${email}`;
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
+    const getProduct = async () => {
+      const url = `http://localhost:5000/myproducts?email=${email}`;
+      const data = await axios.get(url);
+      setProducts(data);
+    };
+    getProduct();
   }, []);
 
   const handleProductDelete = (id) => {
@@ -32,7 +35,7 @@ const MyItem = () => {
   };
   return (
     <div>
-      <h2>My items</h2>
+      <h2>My items:{products.length}</h2>
       {products.map((product) => (
         <div className="d-flex align-items-center" key={product._id}>
           <div>
