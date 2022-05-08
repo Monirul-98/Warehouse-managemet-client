@@ -17,7 +17,7 @@ const AddItem = () => {
   };
   return (
     <div className="w-50 mx-auto">
-      <h3>Please add a service</h3>
+      <h3>Please add a product</h3>
       <form onSubmit={handleSubmit(onSubmit)} className="d-flex flex-column">
         <input
           className="mb-3"

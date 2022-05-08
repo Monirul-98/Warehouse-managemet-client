@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import WareHouseHome from "./Pages/Home/WareHouseHome/WareHouseHome";
@@ -10,10 +9,10 @@ import InventoryDetail from "./Pages/InventoryDetail/InventoryDetail";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Registration/Registration";
-import CheckOut from "./Pages/CheckOut/CheckOut/CheckOut";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import ManageInventories from "./Pages/ManageInventories/ManageInventories";
 import AddItem from "./Pages/AddItem/AddItem";
+import MyItem from "./Pages/My Items/MyItem";
 
 function App() {
   return (
@@ -28,14 +27,7 @@ function App() {
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
-        <Route
-          path="/checkout"
-          element={
-            <RequireAuth>
-              <CheckOut></CheckOut>
-            </RequireAuth>
-          }
-        ></Route>
+
         <Route
           path="/manageinventory"
           element={
@@ -49,6 +41,14 @@ function App() {
           element={
             <RequireAuth>
               <AddItem></AddItem>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/myitem"
+          element={
+            <RequireAuth>
+              <MyItem></MyItem>
             </RequireAuth>
           }
         ></Route>
