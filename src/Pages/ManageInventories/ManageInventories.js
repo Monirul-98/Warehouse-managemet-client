@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./ManageInventories.css";
 
 const ManageInventories = () => {
@@ -12,6 +13,19 @@ const ManageInventories = () => {
   const handleProductDelete = (id) => {
     const proceed = window.confirm("are you sure you want to delete?");
     if (proceed) {
+      console.log("deleting user with id", id);
+      const url = `http://localhost:5000/products/${id}`;
+      fetch(url, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.deletedCount > 0) {
+            console.log("deleted");
+            const remaining = products.filter((product) => product._id !== id);
+            setProducts(remaining);
+          }
+        });
     }
   };
   return (
@@ -38,6 +52,9 @@ const ManageInventories = () => {
           </div>
         </div>
       ))}
+      <Link to="/addItem">
+        <button className="btn btn-dark">Add Item</button>
+      </Link>
     </div>
   );
 };
