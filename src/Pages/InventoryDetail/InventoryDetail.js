@@ -5,7 +5,7 @@ const InventoryDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    const url = `http://localhost:5000/products/${id}`;
+    const url = `https://vast-headland-54732.herokuapp.com/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setProduct(data));
@@ -20,7 +20,7 @@ const InventoryDetail = () => {
     const updatedProduct = { quantity };
 
     // send data to the server
-    const url = `http://localhost:5000/products/${id}`;
+    const url = `https://vast-headland-54732.herokuapp.com/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

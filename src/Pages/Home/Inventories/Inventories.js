@@ -5,14 +5,14 @@ import "./Inventories.css";
 const Inventories = () => {
   const [inventories, setInventories] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://vast-headland-54732.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setInventories(data));
   }, []);
 
   return (
     <div className="container">
-      <h1 className="mt-5 mb-5">Our Inventories</h1>
+      <h1 className="mt-5 mb-5 text-center">Our Inventories</h1>
       <div className="inventories-container">
         {inventories
           .map((inventory) => (

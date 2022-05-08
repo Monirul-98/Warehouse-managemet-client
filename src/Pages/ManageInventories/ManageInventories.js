@@ -5,7 +5,7 @@ import "./ManageInventories.css";
 const ManageInventories = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://vast-headland-54732.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -13,7 +13,7 @@ const ManageInventories = () => {
   const handleProductDelete = (id) => {
     const proceed = window.confirm("are you sure you want to delete?");
     if (proceed) {
-      const url = `http://localhost:5000/products/${id}`;
+      const url = `https://vast-headland-54732.herokuapp.com/products/${id}`;
       fetch(url, {
         method: "DELETE",
       })

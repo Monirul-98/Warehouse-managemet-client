@@ -66,7 +66,7 @@ const Login = () => {
           Log In
         </Button>
         <p className="mt-4">
-          New in Money Mender?{" "}
+          New in Love Beverage?{" "}
           <Link className="text-info text-decoration-none" to="/register">
             Register here.
           </Link>

@@ -8,18 +8,16 @@ const MyItem = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     const email = user.email;
-    const getProduct = async () => {
-      const url = `http://localhost:5000/myproducts?email=${email}`;
-      const data = await axios.get(url);
-      setProducts(data);
-    };
-    getProduct();
+    const url = `https://vast-headland-54732.herokuapp.com/myproducts?email=${email}`;
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
   }, []);
 
   const handleProductDelete = (id) => {
     const proceed = window.confirm("are you sure you want to delete?");
     if (proceed) {
-      const url = `http://localhost:5000/products/${id}`;
+      const url = `https://vast-headland-54732.herokuapp.com/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -35,7 +33,7 @@ const MyItem = () => {
   };
   return (
     <div>
-      <h2>My items:{products.length}</h2>
+      <h2>My items</h2>
       {products.map((product) => (
         <div className="d-flex align-items-center" key={product._id}>
           <div>

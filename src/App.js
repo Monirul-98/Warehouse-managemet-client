@@ -16,7 +16,7 @@ import MyItem from "./Pages/My Items/MyItem";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Routes>
         <Route path="/" element={<WareHouseHome></WareHouseHome>}></Route>
