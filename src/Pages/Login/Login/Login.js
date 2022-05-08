@@ -62,6 +62,7 @@ const Login = () => {
             required
           />
         </Form.Group>
+        {error ? <div>{error}</div> : ""}
         <Button variant="dark" type="submit" className="d-block mx-auto">
           Log In
         </Button>

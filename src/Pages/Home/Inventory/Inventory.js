@@ -13,13 +13,15 @@ const Inventory = ({ inventory }) => {
   return (
     <div className="inventory border-end rounded">
       <img src={img} alt="" className="card-img" />
-      <h2>Name: {name}</h2>
-      <p>Price: {price}</p>
-      <p>Quantity: {quantity}</p>
-      <p>Supplier: {supplier}</p>
-      <p>
-        <small>Description: {description}</small>
-      </p>
+      <div className="details">
+        <h2>Name: {name}</h2>
+        <p>Price: {price}</p>
+        <p>Quantity: {quantity}</p>
+        <p>Supplier: {supplier}</p>
+        <p>
+          <small>Description: {description}</small>
+        </p>
+      </div>
 
       <button
         onClick={() => navigateToInventoryDetail(_id)}
