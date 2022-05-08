@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./Inventory.css";
 
 const Inventory = ({ inventory }) => {
-  const { id, name, img, quantity, supplier, price, description } = inventory;
+  const { _id, name, img, quantity, supplier, price, description } = inventory;
 
   const navigate = useNavigate();
 
@@ -12,7 +12,7 @@ const Inventory = ({ inventory }) => {
   };
   return (
     <div className="inventory border-end rounded">
-      <img src={img} alt="" />
+      <img src={img} alt="" className="card-img" />
       <h2>Name: {name}</h2>
       <p>Price: {price}</p>
       <p>Quantity: {quantity}</p>
@@ -22,8 +22,8 @@ const Inventory = ({ inventory }) => {
       </p>
 
       <button
-        onClick={() => navigateToInventoryDetail(id)}
-        className="btn btn-info"
+        onClick={() => navigateToInventoryDetail(_id)}
+        className="btn btn-dark update"
       >
         Update
       </button>

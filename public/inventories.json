@@ -1,56 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Potato Crackers",
-    "price": "10 taka",
-    "description": "POTATO CRACKERS is the leading and most popular snack prepared with combination of wheat and potato. It is a light, crispy snack",
-    "quantity": "200 pcs",
-    "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/potato.png"
+    "name": "Coca-Cola",
+    "price": 110,
+    "description": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Colasyrup with carbonated water.",
+    "quantity": 200,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/coca-cola-225-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64201&q=low&v=1&m=400&webp=1"
   },
   {
     "id": 2,
-    "name": "MR TWIST",
-    "price": "15 taka",
-    "description": "Mr. TWIST is especially attractive to the youngsters for its unique shape and taste. It is a potato based premium snack with a beautiful twisty shape",
-    "quantity": "100 pcs",
-    "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/mrtwits.png"
+    "name": "Pepsi",
+    "price": 100,
+    "description": "Through the years, Pepsi has evolved from being a cola drink to a brand that stands firmly for the all ages.Pepsi is very popular drinks to everyone. Pepsi can refresh your body and keep active.",
+    "quantity": 100,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/pepsi-pet-225-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95370&q=best&v=1&m=400&webp=1"
   },
   {
     "id": 3,
-    "name": "ALOOZ",
-    "price": "15 taka",
-    "description": "Alooz Chips Magic Masala is a combination of potatoes and spices. A new range of mouthwatering flavors brings change to your tastebud.",
-    "quantity": "150 pcs",
-    "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/alooz.png"
+    "name": "Sprite",
+    "price": 200,
+    "description": "Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
+    "quantity": 150,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/sprite-225-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64209&q=low&v=1&m=400&webp=1"
   },
   {
     "id": 4,
-    "name": "RING CHIPS",
-    "price": "10 taka",
-    "description": "RING CHIPS is the first ever crisp introduced in Bangladesh by Bombay Sweets in 1986. Decades later, it is still a favorite. This ring shaped spicy snack will surely satisfy your taste buds.",
-    "quantity": "300 pcs",
+    "name": "Frutika Mango Juice",
+    "price": 60,
+    "description": "Frutika Mango Juice manufactured by Akij Food and Beverage Limited. Frutika made with treated water,mango pulp, refined sugar, citric acid, sodium citrate, sodium benzoate and mango flavor. Frutika Mango Juice is 100% fresh, tasty and healthy.",
+    "quantity": 300,
     "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/ring-chps.png"
+    "img": "https://chaldn.com/_mpimage/frutika-mango-juice-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97206&q=best&v=1&m=400&webp=1"
   },
   {
     "id": 5,
-    "name": "BOMBAY SWEETS CHANACHUR",
-    "price": "100 taka",
-    "description": "Chanachur is a delicious food eaten as an evening meal in Bangladesh. People of all classes love Chanachur a lot. Bombay Sweets Chanachur 600 gm brings high-quality Chanachur with premium taste",
-    "quantity": "220 pcs",
-    "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/Normal.png"
+    "name": "Coca-Cola Can",
+    "price": 50,
+    "description": "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as one of the most recognizable brands in the world.Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Colasyrup with carbonated water.",
+    "quantity": 220,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/coca-cola-can-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64195&q=low&v=1&m=400&webp=1"
   },
   {
     "id": 6,
-    "name": "DALMOOTH",
-    "price": "40 taka",
-    "description": "Bombay Sweets Dalmoth is a delicious tasty savory mix contains nutritional green lentils. Potato crisps and special spices have also been added to create this premium mix.",
-    "quantity": "220 pcs",
-    "supplier": "bombay-sweets",
-    "img": "https://www.bombaysweetsbd.com/images/products/Dalmoth.png"
+    "name": "7 Up",
+    "price": 40,
+    "description": "Refreshingly Original. Caffeine-free with 100% natural flavors for a crisp, clean, refreshing taste.",
+    "quantity": 220,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/7-up-600-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D100426&q=best&v=1&m=400&webp=1"
+  },
+  {
+    "id": 7,
+    "name": "Mountain Dew Can",
+    "price": 40,
+    "description": "The original the one that started it all. Mountain Dew exhilarate and quenches with its one of a kind taste and also available caffeine free free.",
+    "quantity": 320,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/mountain-dew-can-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D57855&q=low&v=1&m=400&webp=1"
+  },
+  {
+    "id": 8,
+    "name": "Mirinda Can",
+    "price": 40,
+    "description": "Mirinda is a brand of soft drink originally created in Spain in 1959 and now owned by PepsiCo with global distribution.",
+    "quantity": 180,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/mirinda-can-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D57853&q=low&v=1&m=400&webp=1"
+  },
+  {
+    "id": 9,
+    "name": "Clemon",
+    "price": 40,
+    "description": "A soft drink is a drink that usually contains water, a sweetener, and a natural and/or artificial flavoring.The sweetener may be a sugar, high-fructose corn syrup, fruit juice, a sugar substitute, or some combination of these.",
+    "quantity": 240,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/clemon-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97100&q=best&v=1&m=400&webp=1"
+  },
+  {
+    "id": 10,
+    "name": "Fanta",
+    "price": 40,
+    "description": "Bright, bubbly and instantly refreshing, Fanta is made with 100% natural flavors and is caffeine free.",
+    "quantity": 280,
+    "supplier": "Chal-dal",
+    "img": "https://chaldn.com/_mpimage/fanta-600-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64217&q=low&v=1&m=400&webp=1"
   }
 ]
